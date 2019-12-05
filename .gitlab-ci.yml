@@ -1,0 +1,4 @@
+build_image:
+  script:
+    - docker build --build-arg GOPROXY=https://goproxy.io -t hub.fxt.cn/search-engine-include -f Dockerfile .
+    - docker push hub.fxt.cn/search-engine-include
