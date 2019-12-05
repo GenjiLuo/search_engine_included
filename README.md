@@ -1,0 +1,2 @@
+# search_engine_included
+golang,检查和缓存站点关键词在各搜索引擎的收录情况
